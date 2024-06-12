@@ -1,5 +1,4 @@
-import java.time.LocalDate
-import java.time.LocalTime
+import java.time.{LocalDate, LocalTime}
 
 def registrarEntrega(codigoEnvio: String, dni: String): Entrega = {
   // Obtenemos la fecha y hora actuales
