@@ -32,44 +32,43 @@ project-root/
 ├── src/
 │   ├── main/
 │   │   ├── scala/
-│   │   │   ├── models/
-│   │   │   │   ├── Paquete.scala          # Definición de la clase Paquete
-│   │   │   │   ├── Repartidor.scala       # Definición de la clase Repartidor
-│   │   │   │   ├── Vehiculo.scala         # Definición del trait Vehiculo y sus implementaciones
-│   │   │   │   └── Entrega.scala          # Definición de la clase Entrega
-│   │   │   │
-│   │   │   ├── services/
-│   │   │   │   ├── SegmentacionService.scala     # Lógica de segmentación de paquetes
-│   │   │   │   ├── DividirPaquetesPorPeso.scala  # Lógica de división de paquetes por peso
-│   │   │   │   ├── AsignarPaquetes.scala         # Lógica de asignación de paquetes a repartidores
-|   │   │   │   ├── NotificarUsuario.scala        # Lógica de notificación de entregas|
-│   │   │   │   └── EntregarPaquete.scala         # Lógica de entregas
-│   │   │   │   └── RegistrarEntrega.scala        # Lógica de registro de entregas
-│   │   │   │
-│   │   │   ├── Main.scala                 # Punto de entrada del programa
-│   │   │
-│   │   └── resources/
-│   │       └── application.conf           # Configuración de la aplicación (si es necesario)
+│   │       ├── models/
+│   │       │   ├── Paquete.scala          # Definición de la clase Paquete
+│   │       │   ├── Repartidor.scala       # Definición de la clase Repartidor
+│   │       │   ├── Vehiculo.scala         # Definición del trait Vehiculo y sus implementaciones
+│   │       │   └── Entrega.scala          # Definición de la clase Entrega
+│   │       │
+│   │       ├── services/
+│   │       │   ├── SegmentacionService.scala     # Lógica de segmentación de paquetes
+│   │       │   ├── DividirPaquetesPorPeso.scala  # Lógica de división de paquetes por peso
+│   │       │   ├── AsignarPaquetes.scala         # Lógica de asignación de paquetes a repartidores
+|   │       │   ├── NotificarUsuario.scala        # Lógica de notificación de entregas|
+│   │       │   └── EntregarPaquete.scala         # Lógica de entregas
+│   │       │   └── RegistrarEntrega.scala        # Lógica de registro de entregas
+│   │       │
+│   │       ├── Main.scala                 # Punto de entrada del programa
+│   │    
+│   │
+│   │ 
 │   │
 │   └── test/
 │       ├── scala/
-│       │   ├── models/
-│       │   │   ├── PaqueteSpec.scala       # Tests para la clase Paquete
-│       │   │   ├── RepartidorSpec.scala    # Tests para la clase Repartidor
-│       │   │   ├── VehiculoSpec.scala      # Tests para el trait Vehiculo
-│       │   │   └── EntregaSpec.scala       # Tests para la clase Entrega
-│       │   │
-│       │   ├── services/
-│       │   │   ├── SegmentacionServiceSpec.scala  # Tests para SegmentacionService
-│       │   │   ├── DivisionServiceSpec.scala      # Tests para DivisionService
-│       │   │   ├── AsignacionServiceSpec.scala    # Tests para AsignacionService
-│       │   │   └── EntregaServiceSpec.scala       # Tests para EntregaService
-│       │   │
-│       │   └── MainSpec.scala              # Tests para el punto de entrada del programa
-│       │
-│       └── resources/
-│           └── test-application.conf       # Configuración específica para tests
+│           ├── models/
+│           │   ├── PaqueteSpec.scala       # Tests para la clase Paquete
+│           │   ├── RepartidorSpec.scala    # Tests para la clase Repartidor
+│           │   ├── VehiculoSpec.scala      # Tests para el trait Vehiculo
+│           │   └── EntregaSpec.scala       # Tests para la clase Entrega
+│           │
+│           ├── services/
+│           │   ├── SegmentacionServiceSpec.scala  # Tests para SegmentacionService
+│           │   ├── DivisionServiceSpec.scala      # Tests para DivisionService
+│           │   ├── AsignacionServiceSpec.scala    # Tests para AsignacionService
+│           │   └── EntregaServiceSpec.scala       # Tests para EntregaService
+│           │
+│           └── MainSpec.scala              # Tests para el punto de entrada del programa
 │
+│ 
+│      
 └── README.md                    # Documentación del proyecto
 ```
 
