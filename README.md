@@ -71,6 +71,7 @@ project-root/
 │           └── test-application.conf       # Configuración específica para tests
 │
 └── README.md                    # Documentación del proyecto
+```
 
 ## Cómo Usar el Proyecto
 
